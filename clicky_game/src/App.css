@@ -10,4 +10,8 @@
   background: lightskyblue;
 }
 
+#restart {
+  background: red;
+  font-size: 30px;
 
+}

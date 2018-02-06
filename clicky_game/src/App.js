@@ -64,9 +64,11 @@ class App extends Component {
         
 
         <h1 className="points">Points: {this.state.points}</h1>
-        <Title>Famous People Clicky Game</Title>
         
-        {this.state.endGame ? <h1>Game Over! <button onClick={this.startGameOver} >Restart</button></h1>:
+        <Title>Famous People Clicky Game</Title>
+       
+        
+        {this.state.endGame ? <h1>Game Over! <button id="restart" onClick={this.startGameOver} >Restart</button></h1>:
         
         
        
