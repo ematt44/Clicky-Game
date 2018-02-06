@@ -1,87 +1,75 @@
+
 [
-    {
-      "id": 1,
-      "name": "SpongeBob",
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png",
-      "occupation": "Fry Cook",
-      "location": "A Pineapple Under the Sea"
-    },
-    {
-      "id": 2,
-      "name": "Mr. Krabs",
-      "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-      "occupation": "Restaurant Owner",
-      "location": "A Giant Anchor"
-    },
-    {
-      "id": 3,
-      "name": "Squidward",
-      "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-      "occupation": "Cashier",
-      "location": "An Easter Island Head"
-    },
-    {
-      "id": 4,
-      "name": "Dexter",
-      "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-      "occupation": "Boy Genius",
-      "location": "A Secret Laboratory"
-    },
-    {
-      "id": 5,
-      "name": "Courage",
-      "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-      "occupation": "A Cowardly Dog",
-      "location": "Nowhere, Kansas"
-    },
-    {
-      "id": 6,
-      "name": "Doug Funnie",
-      "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-      "occupation": "Student",
-      "location": "Bluffington"
-    },
-    {
-      "id": 7,
-      "name": "Bugs Bunny",
-      "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-      "occupation": "Looney Toon",
-      "location": "A Rabbit Burrow"
-    },
-    {
-      "id": 8,
-      "name": "Johnny Bravo",
-      "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-      "occupation": "Ladies Man",
-      "location": "Aron City"
-    },
-    {
-      "id": 9,
-      "name": "Tommy Pickles",
-      "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-      "occupation": "Adventurer",
-      "location": "California"
-    },
-    {
-      "id": 10,
-      "name": "Rocko",
-      "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-      "occupation": "Cashier",
-      "location": "O-Town, California"
-    },
-    {
-      "id": 11,
-      "name": "Captain Planet",
-      "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-      "occupation": "Superhero",
-      "location": "Earth"
-    },
-    {
-      "id": 12,
-      "name": "Ickis",
-      "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-      "occupation": "Ahhhh! A Real Monster!",
-      "location": "Under a City Dump"
-    }
-  ]
+{
+  "id": 1,
+  "name": "Bill Clinton",
+  "image": "https://orig00.deviantart.net/dad9/f/2014/250/d/e/bill_clinton___talkz_talking_sticker_by_talkingstickers-d7ycgyg.png"
   
+},
+{
+  "id": 2,
+  "name": "Tiger Woods",
+  "image": "http://www.clipartlord.com/wp-content/uploads/2013/04/tiger-woods.png"
+
+},
+{
+  "id": 3,
+  "name": "Jimi Hendrix",
+  "image": "https://i.pinimg.com/originals/30/ed/28/30ed28b4f34f55972fdecbc99cdb870d.png"
+  
+},
+{
+  "id": 4,
+  "name": "Mr. T",
+  "image": "https://vignette.wikia.nocookie.net/lossimpson/images/e/e0/Mr._T.png/revision/latest?cb=20100529230314&path-prefix=es"
+  
+},
+{
+  "id": 5,
+  "name": "Bob Dylan",
+  "image": "https://i.pinimg.com/originals/91/e4/10/91e410c2d41f1c42b1cd04731bfdaffb.png"
+
+},
+{
+  "id": 6,
+  "name": "Jay Leno",
+  "image": "https://t00.deviantart.net/Wr6-7D4SOpfKLA1LKoaGeODqx2c=/fit-in/700x350/filters:fixed_height(100,100):origin()/pre00/b545/th/pre/i/2017/320/b/d/jay_leno_by_tehmaster001-dbtwz8z.png"
+  
+},
+{
+  "id": 7,
+  "name": "Big Foot",
+  "image": "https://orig00.deviantart.net/bee8/f/2010/315/0/4/bigfoot_3_by_catchshiro-d32n8dm.png"
+  
+},
+{
+  "id": 8,
+  "name": "Elvis Presley",
+  "image": "https://thetomatos.com/wp-content/uploads/2017/03/free-elvis-presley-clipart.png"
+  
+},
+{
+  "id": 9,
+  "name": "Gandhi",
+  "image": "https://telegram.org/file/811140053/1/A6JVcXDZiZM/d28d4a5029d010e953"
+  
+},
+{
+  "id": 10,
+  "name": "Jesus Christ",
+  "image": "https://orig00.deviantart.net/00cd/f/2014/218/0/1/jesus__vector_by_mrmr96-d7tyfkp.png"
+  
+},
+{
+  "id": 11,
+  "name": "Mike Tyson",
+  "image": "https://vignette.wikia.nocookie.net/family-guy-the-quest-for-stuff/images/d/d2/Facespace_portrait_mikeTyson_v2.png/revision/latest?cb=20151014063210"
+  
+},
+{
+  "id": 12,
+  "name": "Oprah Winfrey",
+  "image": "https://cdn.brainpop.com/socialstudies/famoushistoricalfigures/oprahwinfrey/icon.png"
+  
+}
+]

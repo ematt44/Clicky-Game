@@ -5,33 +5,81 @@ import Title from "./components/Title";
 import friends from "./friends.json";
 import "./App.css";
 
+
+
+  
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    friends
+    friendsToClick: friends,
+    friendsClicked: [],
+    points: 0,
+    endGame: false,
+    cardArray: friends.slice()
+
   };
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
-  };
+  // Set function for starting the game over
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  startGameOver = () => this.setState({
+    friendsToClick: friends,
+    friendsClicked: [],
+    points: 0,
+    endGame: false,
+    cardArray: friends.slice()
+  })
+
+ 
+  // Set the function for when one of the images is clicked
+
+  clickedFriend = id => {
+
+    if (this.state.friendsClicked.indexOf(id) > -1) {
+      this.setState({ endGame: true });
+   
+      
+    }
+    else{
+      const theFriendsClicked = this.state.friendsClicked.slice();
+      theFriendsClicked.push(id);
+
+      this.setState({
+        points: this.state.points +1,
+        friendsClicked: theFriendsClicked
+      });
+      
+    }
+
+  }
+
+  
   render() {
+
+    // This will make the images move places each time they are clicked
+
+    this.state.cardArray.sort((a, b) => 0.5 - Math.random());
+
     return (
       <Wrapper>
-        <Title>Friends List</Title>
-        {this.state.friends.map(friend => (
+        
+
+        <h1 className="points">Points: {this.state.points}</h1>
+        <Title>Famous People Clicky Game</Title>
+        
+        {this.state.endGame ? <h1>Game Over! <button onClick={this.startGameOver} >Restart</button></h1>:
+        
+        
+       
+        this.state.cardArray.map(friend => (
           <FriendCard
-            removeFriend={this.removeFriend}
+            
             id={friend.id}
             key={friend.id}
             name={friend.name}
             image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
+            clicked={this.clickedFriend}
+            points = {this.state.points}
+            handleClick={this.handleClick}
           />
         ))}
       </Wrapper>
